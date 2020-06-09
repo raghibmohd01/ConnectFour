@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="rootGridPane" style="-fx-background-color: #D9F7F0;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.raghib.connectfour.Controller">
+  <columnConstraints>
+    <ColumnConstraints />
+    <ColumnConstraints />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="25.0" />
+    <RowConstraints />
+  </rowConstraints>
+   <children>
+      <Pane GridPane.columnSpan="2" />
+      <Pane fx:id="insertedDiscsPane" prefHeight="400.0" prefWidth="200.0" GridPane.rowIndex="1" />
+      <VBox prefHeight="365.0" prefWidth="188.0" style="-fx-background-color: #2B3B4C;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <TextField fx:id="playerOneTextField" prefWidth="400.0" promptText=" Player 1 name">
+               <VBox.margin>
+                  <Insets left="15.0" right="15.0" top="35" />
+               </VBox.margin></TextField>
+            <TextField fx:id="playerTwoTextField" prefHeight="25.0" prefWidth="400.0" promptText="Player 2 name">
+               <VBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </VBox.margin></TextField>
+            <Button fx:id="setNameButton" alignment="CENTER" mnemonicParsing="false" prefWidth="400.0" text="Set Names">
+               <VBox.margin>
+                  <Insets bottom="5" left="15.0" right="15.0" top="5.0" />
+               </VBox.margin></Button>
+            <Label fx:id="playerNameLabel" alignment="CENTER" prefHeight="43.0" prefWidth="400.0" text="Player 1" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="70.0" />
+               </VBox.margin></Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="36.0" prefWidth="400.0" text="Turn" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font></Label>
+            <Region VBox.vgrow="ALWAYS" />
+         </children></VBox>
+   </children>
+</GridPane>
