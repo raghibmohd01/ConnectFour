@@ -1,5 +1,4 @@
 # ConnectFour
-This project i have done in my training  as  final project assignment at internshala.
+During my training at Internshala, I developed a version of the classic game, Connect Four.
 
-Connect Four is a two-player connection game in which the players first choose a color and then take turns dropping colored discs from
-the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs
+Connect Four is a strategic two-player game where each participant selects a color and alternately drops colored discs into a vertically suspended grid with seven columns and six rows. The discs fall straight down, filling the lowest available slot in the chosen column. The primary goal of the game is to be the first player to align four of their discs in a row—horizontally, vertically, or diagonally. 
